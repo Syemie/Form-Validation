@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Title of the document -->
+    <title>Form Validation</title>
+</head>
+<body>
+    <!-- Main container for the form -->
+    <div class="container">
+        <!-- Form with a unique ID -->
+        <form id="myForm">
+            <!-- Form field for Full Name -->
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" class="form-control" id="fullName" required>
+                <!-- Error message for Full Name validation -->
+                <div class="error-message" id="fullNameError"></div>
+            </div>
+
+            <!-- Form field for Email ID -->
+            <div class="form-group">
+                <label for="email">Email ID:</label>
+                <input type="email" class="form-control" id="email" required>
+                <!-- Error message for Email validation -->
+                <div class="error-message" id="emailError"></div>
+            </div>
+
+            <!-- Form field for Phone Number -->
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" class="form-control" id="phone" required>
+                <!-- Error message for Phone Number validation -->
+                <div class="error-message" id="phoneError"></div>
+            </div>
+
+            <!-- Form field for Password -->
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" id="password" required>
+                <!-- Error message for Password validation -->
+                <div class="error-message" id="passwordError"></div>
+            </div>
+
+            <!-- Form field for Confirm Password -->
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" class="form-control" id="confirmPassword" required>
+                <!-- Error message for Confirm Password validation -->
+                <div class="error-message" id="confirmPasswordError"></div>
+            </div>
+
+            <!-- Submit button for the form -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

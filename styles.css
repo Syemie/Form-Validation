@@ -1,0 +1,79 @@
+/* Set height to 100%, remove default margin and padding, and use flexbox for centering */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Body styling */
+body {
+    /* Set background image, cover the entire viewport, and center it */
+    background-image: url('gradient-image.webp'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Set font family and height to 100% */
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+/* Styling for the main container */
+.container {
+    /* Set maximum width, margin, background color with transparency, padding, border-radius, and box shadow */
+    max-width: 400px;
+    margin: 20px ;
+    background-color: rgba(255, 255, 255, 0.5);;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for form groups */
+.form-group {
+    /* Set margin-bottom */
+    margin-bottom: 20px;
+}
+
+/* Styling for labels */
+label {
+    /* Set display to block and margin-bottom */
+    display: black;
+    margin-bottom: 5px;
+}
+
+/* Styling for form controls */
+.form-control {
+    /* Set width, height, padding, and box-sizing */
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Styling for error messages */
+.error-message {
+    /* Set color, font-size, and margin-top */
+    color: #dc3545;
+    font-size: 80%;
+    margin-top: 5px;
+}
+
+/* Styling for primary button */
+.btn-primary {
+    /* Set background color, text color, padding, border, border-radius, and cursor */
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover styling for primary button */
+.btn-primary:hover {
+    background-color: #00d816;
+    color: rgb(255, 255, 255);
+}
